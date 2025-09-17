@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Business Consulting</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom custom-border">
+        <div class="container custom-container">
+
+            <a class="navbar-brand" href="#"><img src="images/logo-default-slim-dark-small.png" alt="" width="100"></a>
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon custom-icon"></span>
+            </button> -->
+
+            <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Expertise</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Cases</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Testimonials</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Team</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider / Hero Section -->
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active"
+                style="background-image: url('images/slide-1.jpg'); background-size: cover; background-position: center; height: 100vh;">
+
+                <div class="container custom-container h-100 d-flex align-items-center">
+                    <div class="carousel-caption text-start text-white">
+
+                        <h1 class="mb-4">Get your <br><strong>Free Consultation</strong></h1>
+                        <a href="#" class="btn btn-success btn-lg my-4">Get Started</a>
+
+                        <div
+                            class="hero-info d-flex flex-column flex-lg-row gap-4 align-items-start align-items-lg-center">
+
+                            <div class="me-auto p-2">
+                                <p class="lead mt-3 fs-4 d-inline">- Are you looking for a </p> <br>
+                                <h4 class="d-inline">Business Plan Consultant?</h4><br>
+                                <p class="fs-6">Schedule your company strategy right session now</p>
+                            </div>
+
+                            <div class="p-2">
+                                <div class="border-start border-3 border-success ps-3">
+                                    <small class="d-block">Call Us Now</small>
+                                    <span class="text-white fs-5">+001 1230 4567</span>
+                                </div>
+                            </div>
+
+                            <div class="p-2">
+                                <div class="border-start border-3 border-success ps-3">
+                                    <small class="d-block">Email Us Now</small>
+                                    <span class="text-white fs-5">mail@example.com</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item"
+                style="background-image: url('images/slide-2.jpg'); background-size: cover; background-position: center; height: 100vh;">
+
+                <div class="container custom-container h-100 d-flex align-items-center">
+                    <div class="carousel-caption text-start text-white">
+
+                        <h1 class="mb-4">Solution For <br><strong>Pro Business Plan</strong></h1>
+                        <a href="#" class="btn btn-success btn-lg my-4">Get Started</a>
+
+                        <div
+                            class="hero-info d-flex flex-column flex-lg-row gap-4 align-items-start align-items-lg-center">
+
+                            <div class="me-auto p-2">
+                                <p class="lead mt-3 fs-4 d-inline">- Are you looking for a </p> <br>
+                                <h4 class="d-inline">Business Plan Consultant?</h4><br>
+                                <p class="fs-6">Schedule your company strategy right session now</p>
+                            </div>
+
+                            <div class="p-2">
+                                <div class="border-start border-3 border-success ps-3">
+                                    <small class="d-block">Call Us Now</small>
+                                    <span class="text-white fs-5">+001 1230 4567</span>
+                                </div>
+                            </div>
+
+                            <div class="p-2">
+                                <div class="border-start border-3 border-success ps-3">
+                                    <small class="d-block">Email Us Now</small>
+                                    <span class="text-white fs-5">mail@example.com</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon me-5"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon ms-5"></span>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- About us section  -->
+    <section class="about-us-section">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2>- About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna
+                        tincidunt, auctor ullamcorper risus luctus. Nunc et feugiat arcu, in placerat risus. Phasellus
+                        condimentum sapien vitae.</p>
+                    <div class="row about-us-list mt-4">
+                        <div class="col-sm-6">
+                            <div class="list-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Certified Professionals</span>
+                            </div>
+                            <div class="list-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Former Chief Executives</span>
+                            </div>
+                            <div class="list-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Real Estate Professionals</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="list-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Nobel Laureate Economists</span>
+                            </div>
+                            <div class="list-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Former Political Leaders</span>
+                            </div>
+                            <div class="list-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Chartered Financial Analysts</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="btn read-more-btn rounded-pill">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-lg-5">
+                    <div class="row stats-section">
+                        <div class="col-6 stat-item sec1">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-1">
+                                    <img src="images/icon-1.png" alt="" class="mb-4">
+                                </div>
+                                <div class="col-6">
+                                    <h3>15+</h3>
+                                    <p>Years in Business</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 stat-item sec2">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-1">
+                                    <img src="images/icon-2.png" alt="" class="mb-4">
+                                </div>
+                                <div class="col-6">
+                                    <h3>2000+</h3>
+                                    <p>Successfull Cases</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 stat-item sec3">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-1">
+                                    <img src="images/icon-3.png" alt="" class="mb-4">
+                                </div>
+                                <div class="col-6">
+                                    <h3>240+</h3>
+                                    <p>Satisfied Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 stat-item ">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-1">
+                                    <img src="images/icon-4.png" alt="" class="mb-4">
+                                </div>
+                                <div class="col-6">
+                                    <h3>130+</h3>
+                                    <p>Pro Consultants</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise section  -->
+    <section class="expertises-section">
+        <div class="container custom-container">
+            <h2 class="text-start">- Expertises</h2>
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card d-flex align-items-start gap-4">
+                        <div class="card-icon flex-shrink-0">
+                            <img src="images/expertise-1.jpg" alt="Corporate Finance">
+                        </div>
+                        <div class="card-content flex-grow-1">
+                            <h3>Corporate Finance</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card d-flex align-items-start gap-4">
+                        <div class="card-icon flex-shrink-0">
+                            <img src="images/expertise-2.jpg" alt="Corporate Finance">
+                        </div>
+                        <div class="card-content flex-grow-1">
+                            <h3>Corp Restructuring</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card d-flex align-items-start gap-4">
+                        <div class="card-icon flex-shrink-0">
+                            <img src="images/expertise-3.jpg" alt="Corporate Finance">
+                        </div>
+                        <div class="card-content flex-grow-1">
+                            <h3>Economic Consulting</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card d-flex align-items-start gap-4">
+                        <div class="card-icon flex-shrink-0">
+                            <img src="images/expertise-4.jpg" alt="Corporate Finance">
+                        </div>
+                        <div class="card-content flex-grow-1">
+                            <h3>Litigation Consulting</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card d-flex align-items-start gap-4">
+                        <div class="card-icon flex-shrink-0">
+                            <img src="images/expertise-5.jpg" alt="Corporate Finance">
+                        </div>
+                        <div class="card-content flex-grow-1">
+                            <h3>Strategic Consulting</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card d-flex align-items-start gap-4">
+                        <div class="card-icon flex-shrink-0">
+                            <img src="images/expertise-6.jpg" alt="Corporate Finance">
+                        </div>
+                        <div class="card-content flex-grow-1">
+                            <h3>Tech Consulting</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center ">
+                <a href="#" class="btn view-all-btn rounded-pill">VIEW ALL</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy section  -->
+    <section class="main-section">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2>- Our Strategy</h2>
+                    <div class="strategy-step">
+                        <div class="step-number text-center">Step <br><span>01</span></div>
+                        <div class="step-content">
+                            <h3>The first meeting <br>Understanding the Problem</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna
+                                tincidunt, auctor ullamcorper risus luctus. Nunc et feugiat arcu, in placerat risus.
+                                Phasellus condimentum sapien vitae.</p>
+
+                            <div class="step-navigation">
+                                <a href="#" class="active">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h2>- Frequently asked questions</h2>
+                    <div class="accordion border" id="faqAccordion">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Praesent sit amet quam a lorem commodo tincidunt.
+                                    <span class="icon ms-auto"><i class="fas fa-minus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus
+                                    urna tincidunt, auctor ullamcorper risus luctus.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Integer ac elit id est euismod pellentesque.
+                                    <span class="icon ms-auto"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Content for the second FAQ goes here.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Cras interdum neque sit amet justo maximus, ut sollicitudin eros.
+                                    <span class="icon ms-auto"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Content for the third FAQ goes here.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Pellentesque in ex molestie, convallis nulla ut, ornare erat.
+                                    <span class="icon ms-auto"><i class="fas fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Content for the fourth FAQ goes here.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cases section  -->
+    <section class="cases-section">
+        <div class="container custom-container">
+            <div class="cases-header">
+                <h2>- Our Cases</h2>
+            </div>
+        </div>
+
+        <div class="row case-row g-0">
+
+            <div class="col-lg-2 col-md-12">
+                <div class="case-card first-card">
+                    <div class="case-card-image">
+                        <img src="images/case-1.jpg" alt="Case 1">
+                    </div>
+                    <div class="case-card-content">
+                        <div class="case-card-text">
+                            <h4>Corporate Finance</h4>
+                            <p>Oklar</p>
+                        </div>
+                        <span class="case-card-arrow"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12">
+                <div class="case-card">
+                    <div class="case-card-image">
+                        <img src="images/case-2.jpg" alt="Case 2">
+                    </div>
+                    <div class="case-card-content">
+                        <div class="case-card-text">
+                            <h4>Corporate Restructuring</h4>
+                            <p>Envato</p>
+                        </div>
+                        <span class="case-card-arrow"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12">
+                <div class="case-card">
+                    <div class="case-card-image">
+                        <img src="images/case-3.jpg" alt="Case 3">
+                    </div>
+                    <div class="case-card-content">
+                        <div class="case-card-text">
+                            <h4>Economic Consulting</h4>
+                            <p>Porto</p>
+                        </div>
+                        <span class="case-card-arrow"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12">
+                <div class="case-card">
+                    <div class="case-card-image">
+                        <img src="images/case-4.jpg" alt="Case 4">
+                    </div>
+                    <div class="case-card-content">
+                        <div class="case-card-text">
+                            <h4>Tech Consulting</h4>
+                            <p>GetCustom</p>
+                        </div>
+                        <span class="case-card-arrow"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12">
+                <div class="case-card">
+                    <div class="case-card-image">
+                        <img src="images/case-5.jpg" alt="Case 5">
+                    </div>
+                    <div class="case-card-content">
+                        <div class="case-card-text">
+                            <h4>Strategic</h4>
+                            <p>Jet Orange</p>
+                        </div>
+                        <span class="case-card-arrow"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12">
+                <div class="case-card last-card">
+                    <div class="case-card-image">
+                        <img src="images/case-1.jpg" alt="Case 6">
+                    </div>
+                    <div class="case-card-content">
+                        <div class="case-card-text">
+                            <h4>Litigation</h4>
+                            <p>Paradoxx</p>
+                        </div>
+                        <span class="case-card-arrow"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- testimonials section  -->
+    <section class="testimonials-section">
+        <div class="container custom-container">
+            <div class="testimonials-header">
+                <h2>- Testimonials</h2>
+                <div class="slider-nav">
+                    <span class="dot active" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"></span>
+                    <span class="dot" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></span>
+                </div>
+            </div>
+
+            <div class="testimonial-container">
+
+                <div id="testimonialCarousel" class="carousel slide" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-content">
+                                <div class="testimonial-image">
+                                    <img src="images/testimonial-author-2.jpg" alt="John Smith">
+                                </div>
+                                <div class="testimonial-text">
+                                    <div class="testimonial-quotes-left"><i class="fa-solid fa-quote-left"></i></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta,
+                                        tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit. Sociis natoque penatibus et magnis dis
+                                        parturient montes, nascetur ridiculus mus. Fusce ante tellus, convallis non
+                                        consectetur sed, pharetra nec ex. Aliquam et tortor nisi. Duis mollis diam nec
+                                        elit volutpat suscipit.</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-quotes-right"><i class="fa-solid fa-quote-right"></i>
+                                        </div>
+                                        <hr>
+                                        <h4>John Smith</h4>
+                                        <span class="designation">CEO & Founder - Oktler</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-image">
+                                    <img src="images/testimonial-author-3.jpg" alt="Jane Doe">
+                                </div>
+                                <div class="testimonial-text">
+                                    <div class="testimonial-quotes-left"><i class="fa-solid fa-quote-left"></i></div>
+                                    <p>Praesent eget nunc sit amet ex tincidunt pharetra. Sed at libero a justo
+                                        ullamcorper bibendum. Donec nec mi sit amet massa consectetur sodales. Sed non
+                                        feugiat ex, nec rhoncus ex. Fusce vel nisi id risus laoreet vehicula in at ex.
+                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                        turpis egestas.</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-quotes-right"><i class="fa-solid fa-quote-right"></i>
+                                        </div>
+                                        <hr>
+                                        <h4>Jane Doe</h4>
+                                        <span class="designation">Marketing Manager - Tech Innovations</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- our team section  -->
+    <section class="team-section">
+        <div class="container custom-container">
+            <div class="team-header">
+                <h2>- Our Team</h2>
+                <div class="slider-nav">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <div class="row gx-3">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="images/team-1.jpg" alt="John Doe">
+                        </div>
+                        <div class="share-icon-container">
+                            <div class="share-icon" data-member="john-doe">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="social-media-links" id="social-links-john-doe">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-details">
+                            <h4>John Doe</h4>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="images/team-2.jpg" alt="Joyce Doe">
+                        </div>
+                        <div class="share-icon-container">
+                            <div class="share-icon" data-member="joyce-doe">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="social-media-links" id="social-links-joyce-doe">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-details">
+                            <h4>Joyce Doe</h4>
+                            <p>Finance Expert</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="images/team-3.jpg" alt="Donald Doe">
+                        </div>
+                        <div class="share-icon-container">
+                            <div class="share-icon" data-member="donald-doe">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="social-media-links" id="social-links-donald-doe">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-details">
+                            <h4>Donald Doe</h4>
+                            <p>Manufacturing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="images/team-4.jpg" alt="Jerry Doe">
+                        </div>
+                        <div class="share-icon-container">
+                            <div class="share-icon" data-member="jerry-doe">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="social-media-links" id="social-links-jerry-doe">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-details">
+                            <h4>Jerry Doe</h4>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+                <a href="#" class="view-all-btn">VIEW ALL</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section  -->
+    <div class="contact-green ">
+        <div class="container custom-container">
+            <div
+                class="hero-info contact-section d-flex flex-column flex-lg-row gap-4 align-items-start align-items-lg-center py-4">
+
+                <div class="me-auto p-2">
+                    <p class="lead mt-3 fs-4 d-inline">- Are you looking for a </p> <br>
+                    <h4 class="d-inline">Business Plan Consultant?</h4><br>
+                    <p class="fs-6" style="color: #e9ecef;">Schedule your company strategy right session now</p>
+                </div>
+
+                <div class="p-2">
+                    <div class="border-start border-3 border-white ps-3">
+                        <small class="d-block">Call Us Now</small>
+                        <span class="text-white fs-5">+001 1230 4567</span>
+                    </div>
+                </div>
+
+                <div class="p-2">
+                    <div class="border-start border-3 border-white ps-3">
+                        <small class="d-block">Email Us Now</small>
+                        <span class="text-white fs-5">mail@example.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog section  -->
+    <section class="blog-section">
+        <div class="container custom-container">
+            <div class="blog-header">
+                <h2>- Our Blog</h2>
+            </div>
+
+            <div class="blog-post-card row g-6">
+                <div class="col-lg-5 col-md-12">
+                    <div class="blog-post-image">
+                        <img src="images/blog-1.jpg" alt="Blog Post Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-center">
+                    <div class="blog-post-content">
+                        <h3>Global Opportunities</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna
+                            tincidunt, auctor ullamcorper risus luctus. Nunc et feugiat arcu, in placerat risus.
+                            Phasellus condimentum sapien vitae odio.</p>
+
+                        <div class="blog-meta">
+                            <span>Posted by: <a href="#" class="fw-bold" style="color: #101019;">John Doe</a></span>
+                            <span>Comments: <span style="color: #4dbb6d; font-weight: 600;">15</span></span>
+                            <span>Like: <span style="color: red;">38</span></span>
+                        </div>
+
+                        <a href="#" class="read-more-btn mt-4">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer secction -->
+    <footer class="footer-section"
+        style="background-image: url(images/contact-background.jpg); background-size: cover; ">
+        <div class="container custom-container footer-content">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer-header">
+                        <h2>- Contact Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna
+                            tincidunt, auctor ullamcorper risus luctus.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h5>Call Us</h5>
+                            <p>Phone</p>
+                            <p>123-456-7890</p>
+                        </div>
+                        <div class="contact-item">
+                            <h5>Our Location</h5>
+                            <p>Porto Business Consulting, 123 Porto Blvd, Suite 100 New York, NY</p>
+                        </div>
+                        <div class="contact-item">
+                            <h5>Mail Us</h5>
+                            <p>Email</p>
+                            <p>mail@example.com</p>
+                        </div>
+                        <div class="contact-item social-media">
+                            <h5>Social Media</h5>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="footer-header">
+                        <h2>- Write Us</h2>
+                    </div>
+                    <form>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <input type="text" class="form-control" id="name" placeholder="Name*">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <input type="email" class="form-control" id="email" placeholder="Email*">
+                        </div>
+                        <div class="input-group mb-3 message-group">
+                            <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message*"></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">SUBMIT NOW</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>2025 © Porto Business Consulting - Copyright All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+</html>
